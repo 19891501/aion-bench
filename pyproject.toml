@@ -1,0 +1,14 @@
+[project]
+name = "aion-bench"
+version = "0.1.0"
+description = "AION measurement — BAR, pré-enregistrement, RAW/SCAFFOLD/AION"
+requires-python = ">=3.10"
+dependencies = []
+# Install aion-core from sibling: pip install -e ../aion-core
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
